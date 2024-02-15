@@ -1,7 +1,7 @@
 import arviz as az
 import numpy as np
 import scipy
-import pymc3 as pm
+import pymc as pm
 
 
 def quap(vars, n_samples=10_000):
